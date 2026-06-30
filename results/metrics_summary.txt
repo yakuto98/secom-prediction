@@ -1,0 +1,15 @@
+
+Model: Logistic Regression (class_weight='balanced', C=0.1)
+Features selected: 80 (via SelectKBest f_classif)
+
+Test Set Performance:
+- Recall (Fail): 0.62
+- Precision (Fail): 0.17
+- F1 (Fail): 0.26
+- AUC-ROC: 0.685
+- Accuracy: 0.77
+
+Confusion Matrix:
+                 Predicted Pass  Predicted Fail
+Actual Pass            228             65
+Actual Fail              8             13
